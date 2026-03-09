@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sai0-vla-client"
+version = "0.1.0"
+description = "Sai0-VLA LIBERO evaluation client — call cloud API, run env locally."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+    "numpy>=1.22",
+    "Pillow>=9.0",
+    "opencv-python>=4.5",
+    "imageio>=2.20",
+    "imageio-ffmpeg>=0.4",
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+libero = [
+    "mujoco==3.3.7",
+    "robosuite==1.4.0",
+    "libero==0.1.1",
+]
+
+[project.scripts]
+sai0-eval = "sai0_vla_client.cli:main"
+
+[tool.setuptools]
+packages = ["sai0_vla_client"]
+
+[tool.setuptools.package-dir]
+sai0_vla_client = "."
+
+[tool.setuptools.package-data]
+sai0_vla_client = ["README.md"]
