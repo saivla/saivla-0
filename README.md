@@ -108,7 +108,7 @@ pip install -e .
 ### Check server connection
 
 ```bash
-sai0-eval --server https://api.synthoid.work --check
+sai0-eval --server https://api.synthoid.cloud --check
 ```
 
 > **Tip:** If you encounter an SSL error (e.g. `WRONG_VERSION_NUMBER`), the server may not support HTTPS. Try using `http://` instead of `https://`.
@@ -117,7 +117,7 @@ sai0-eval --server https://api.synthoid.work --check
 
 ```bash
 sai0-eval \
-  --server https://api.synthoid.work \
+  --server https://api.synthoid.cloud \
   --task-suite libero_spatial \
   --trials 10 \
   --output-dir ./my_eval_results \
@@ -178,7 +178,7 @@ The server handles preprocessing, multimodal fusion, and action decoding.
 ```python
 from sai0_vla_client import Sai0VLAClient
 
-client = Sai0VLAClient("https://api.synthoid.work", api_key="sk-xxx")
+client = Sai0VLAClient("https://api.synthoid.cloud", api_key="sk-xxx")
 
 actions = client.act(
     images=[agentview_img, wrist_img],   # np.ndarray (H, W, 3)
