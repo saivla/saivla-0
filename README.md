@@ -213,10 +213,14 @@ This project is licensed under the Apache License 2.0 — see the `LICENSE.txt` 
 If you find this work useful, please cite:
 
 ```bibtex
-@article{saivla0_2026,
-  title={SaiVLA-0: Cerebrum--Pons--Cerebellum Tripartite Architecture for Compute-Aware Vision-Language-Action},
-  author={Synthoid.ai},
-  year={2026}
+@misc{shi2026saivla0cerebrumponscerebellumtripartitearchitecture,
+      title={SaiVLA-0: Cerebrum--Pons--Cerebellum Tripartite Architecture for Compute-Aware Vision-Language-Action}, 
+      author={Xiang Shi and Wenlong Huang and Menglin Zou and Xinhai Sun},
+      year={2026},
+      eprint={2603.08124},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.08124}, 
 }
 ```
 
