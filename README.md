@@ -215,7 +215,7 @@ If you find this work useful, please cite:
 ```bibtex
 @inproceedings{Shi2026SaiVLA0CT,
   title={SaiVLA-0: Cerebrum--Pons--Cerebellum Tripartite Architecture for Compute-Aware Vision-Language-Action},
-  author={Xiangqun Shi and Wenlong Huang and Menglin Zou and Xinhai Sun},
+  author={Xiang Shi and Wenlong Huang and Menglin Zou and Xinhai Sun},
   year={2026},
   url={https://api.semanticscholar.org/CorpusID:286377933}
 }
